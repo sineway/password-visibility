@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Password Visibility",
     "description": "Toggle password visibility using page action or keyboard shortcut (Alt+P)",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "applications": {
         "gecko": {
             "id": "password-visibility@sineway",
@@ -10,7 +10,7 @@
         }
     },
     "author": "Sineway",
-    "homepage_url": "https://github.com/sineway/firefox-password-visibility",
+    "homepage_url": "https://bitbucket.org/sineway/firefox-password-visibility",
     "icons": {
         "96": "icons/icons8-good-pincode-96.png"
     },
