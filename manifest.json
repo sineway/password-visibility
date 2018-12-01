@@ -2,10 +2,10 @@
     "manifest_version": 2,
     "name": "Password Visibility",
     "description": "Toggle password visibility using page action or keyboard shortcut (Alt+P)",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "applications": {
         "gecko": {
-            "id": "password-visibility@sineway",
+            "id": "password.visibility@sineway",
             "strict_min_version": "63.0"
         }
     },
