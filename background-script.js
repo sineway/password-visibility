@@ -12,13 +12,9 @@ const actionControllers = new Map();
     @param {Object} tab
 */
 const onTabUpdated = (tabId, changeInfo, tab) => {
-    console.info(`Tab ${tabId} updated.`);
+    console.info(`Tab ${tabId} ${tab.status}.`);
     if (tab.status === "complete") {
-        browser.pageAction.isShown({tabId}).then((isShown) => {
-            if (!isShown) {
-                browser.pageAction.show(tabId);
-            }
-        });
+        browser.pageAction.show(tabId);
         if (!actionControllers.has(tabId)) {
             actionControllers.set(tabId, new ActionController(tabId));
             console.info(`Action controller created.`);
