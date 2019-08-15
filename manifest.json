@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Password Visibility",
-    "description": "Toggle password visibility using page action or keyboard shortcut (Alt+P)",
-    "version": "1.0.3",
+    "description": "Toggle password visibility using context menu or keyboard shortcut",
+    "version": "2.0.0",
     "applications": {
         "gecko": {
             "id": "password.visibility@sineway",
@@ -10,23 +10,19 @@
         }
     },
     "author": "Sineway",
-    "homepage_url": "https://bitbucket.org/sineway/firefox-password-visibility",
     "icons": {
         "96": "icons/icons8-good-pincode-96.png"
     },
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab", "contextMenus"],
     "background": {
-        "scripts": ["action-controller.js", "background-script.js"]
-    },
-    "page_action": {
-        "default_icon": "icons/icons8-good-pincode-96.png",
-        "default_title": "Toggle Password Visibility"
+        "scripts": ["javascripts/background.js"]
     },
     "commands": {
-        "_execute_page_action": {
+        "toggle-password-visibility": {
             "suggested_key": {
                 "default": "Alt+P"
-            }
+            },
+            "description": "Send a 'toggle-password-visibility' event to the extension"
         }
     }
 }
