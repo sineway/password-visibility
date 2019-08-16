@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "密码可见性"
+    },
+
+    "extensionDescription": {
+        "message": "使用上下文菜单或键盘快捷键切换密码可见性"
+    },
+
+    "primaryAction": {
+        "message": "显示/隐藏密码"
+    }
+}

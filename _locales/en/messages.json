@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Password Visibility"
+    },
+
+    "extensionDescription": {
+        "message": "Toggle password visibility using context menu or keyboard shortcut"
+    },
+
+    "primaryAction": {
+        "message": "Show / Hide password"
+    }
+}

@@ -4,7 +4,7 @@ const scriptProps = {
 };
 
 chrome.contextMenus.create({
-    title: "Toggle Password Visibility",
+    title: chrome.i18n.getMessage("primaryAction"),
     contexts: ["editable"],
     onclick: (info, tab) => chrome.tabs.executeScript(tab.id, scriptProps)
 });

@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "パスワードの可視性"
+    },
+
+    "extensionDescription": {
+        "message": "コンテキストメニューまたはキーボードショートカットを使用してパスワードの表示を切り替える"
+    },
+
+    "primaryAction": {
+        "message": "パスワードの表示/非表示"
+    }
+}

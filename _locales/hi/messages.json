@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "पासवर्ड दृश्यता"
+    },
+
+    "extensionDescription": {
+        "message": "संदर्भ मेनू या कीबोर्ड शॉर्टकट का उपयोग करके पासवर्ड दृश्यता को टॉगल करें"
+    },
+
+    "primaryAction": {
+        "message": "पासवर्ड दिखाएं / छिपाएं"
+    }
+}

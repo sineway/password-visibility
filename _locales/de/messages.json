@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Sichtbarkeit des Passworts"
+    },
+
+    "extensionDescription": {
+        "message": "Aktivieren oder Deaktivieren der Kennwortsichtbarkeit mithilfe des Kontextmenüs oder der Tastenkombination"
+    },
+
+    "primaryAction": {
+        "message": "Passwort ein- / ausblenden"
+    }
+}

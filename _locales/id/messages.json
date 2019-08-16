@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Visibilitas Kata Sandi"
+    },
+
+    "extensionDescription": {
+        "message": "Alihkan visibilitas kata sandi menggunakan menu konteks atau pintasan keyboard"
+    },
+
+    "primaryAction": {
+        "message": "Tampilkan / Sembunyikan kata sandi"
+    }
+}

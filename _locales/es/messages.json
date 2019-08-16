@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Visibilidad de contraseña"
+    },
+
+    "extensionDescription": {
+        "message": "Alternar la visibilidad de la contraseña con el menú contextual o el método abreviado de teclado"
+    },
+
+    "primaryAction": {
+        "message": "Mostrar / Ocultar contraseña"
+    }
+}
