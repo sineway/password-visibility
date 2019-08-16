@@ -1,6 +1,7 @@
 module.exports = {
     ignoreFiles: [
-        "web-ext-config.js"
+        "web-ext-config.js",
+        "design/**"
     ],
     run: {
         startUrl: [
