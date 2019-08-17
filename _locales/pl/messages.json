@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Widoczność hasła"
+    },
+
+    "extensionDescription": {
+        "message": "Przełącz widoczność hasła za pomocą menu kontekstowego lub skrótu klawiaturowego"
+    },
+
+    "primaryAction": {
+        "message": "Pokaż / Ukryj hasło"
+    }
+}

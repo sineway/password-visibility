@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Zichtbaarheid wachtwoord"
+    },
+
+    "extensionDescription": {
+        "message": "Schakel wachtwoordzichtbaarheid in met behulp van het contextmenu of de sneltoets"
+    },
+
+    "primaryAction": {
+        "message": "Wachtwoord tonen / verbergen"
+    }
+}
