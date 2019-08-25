@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Wagwoord sigbaarheid"
+    },
+
+    "extensionDescription": {
+        "message": "Wissel wagwoord sigbaarheid met behulp van die konteks menu of die kortpad"
+    },
+
+    "primaryAction": {
+        "message": "Wys / verberg wagwoord"
+    }
+}

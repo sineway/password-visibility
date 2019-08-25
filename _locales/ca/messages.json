@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Visibilitat amb contrasenya"
+    },
+
+    "extensionDescription": {
+        "message": "Commuta la visibilitat de la contrasenya mitjançant el menú contextual o la drecera del teclat"
+    },
+
+    "primaryAction": {
+        "message": "Mostra / Oculta la contrasenya"
+    }
+}

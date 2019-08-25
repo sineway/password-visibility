@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Kebolehlihatan kata laluan"
+    },
+
+    "extensionDescription": {
+        "message": "Togol keterlihatan kata laluan menggunakan menu konteks atau pintasan papan kekunci"
+    },
+
+    "primaryAction": {
+        "message": "Tunjukkan / Sembunyikan kata laluan"
+    }
+}

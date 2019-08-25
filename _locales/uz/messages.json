@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Parolning ko'rinishi"
+    },
+
+    "extensionDescription": {
+        "message": "Kontekst menyusi yoki klaviatura yorlig'idan foydalanib parol ko'rinishini yoqish"
+    },
+
+    "primaryAction": {
+        "message": "Parolni ko'rsatish / yashirish"
+    }
+}

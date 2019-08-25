@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Pasahitzen ikusgaitasuna"
+    },
+
+    "extensionDescription": {
+        "message": "Pasahitzen ikusgarritasuna aldatu testuinguruko menua edo teklatu lasterbidea erabiliz"
+    },
+
+    "primaryAction": {
+        "message": "Pasahitza erakutsi / ezkutatu"
+    }
+}

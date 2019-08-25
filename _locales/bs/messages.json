@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Vidljivost lozinke"
+    },
+
+    "extensionDescription": {
+        "message": "Prebacite vidljivost lozinke pomoću kontekstnog menija ili prečice na tastaturi"
+    },
+
+    "primaryAction": {
+        "message": "Prikaži / sakrij lozinku"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Lösenordssynlighet"
+    },
+
+    "extensionDescription": {
+        "message": "Växla lösenordets synlighet med snabbmenyn eller kortkommandon"
+    },
+
+    "primaryAction": {
+        "message": "Visa / dölj lösenord"
+    }
+}

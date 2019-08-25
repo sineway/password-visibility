@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Şifre Görünürlüğü"
+    },
+
+    "extensionDescription": {
+        "message": "Bağlam menüsünü veya klavye kısayolunu kullanarak şifre görünürlüğünü değiştirin"
+    },
+
+    "primaryAction": {
+        "message": "Şifreyi Göster / Gizle"
+    }
+}

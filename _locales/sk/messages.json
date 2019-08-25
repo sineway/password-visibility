@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Viditeľnosť hesla"
+    },
+
+    "extensionDescription": {
+        "message": "Prepnúť viditeľnosť hesla pomocou kontextového menu alebo klávesovej skratky"
+    },
+
+    "primaryAction": {
+        "message": "Zobraziť / skryť heslo"
+    }
+}

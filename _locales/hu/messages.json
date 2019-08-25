@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Jelszó láthatósága"
+    },
+
+    "extensionDescription": {
+        "message": "Váltás a jelszó láthatóságáról a helyi menü vagy a billentyűparancs segítségével"
+    },
+
+    "primaryAction": {
+        "message": "Jelszó megjelenítése / elrejtése"
+    }
+}

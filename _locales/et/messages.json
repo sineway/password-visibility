@@ -1,0 +1,13 @@
+{
+    "extensionName": {
+        "message": "Parooli nähtavus"
+    },
+
+    "extensionDescription": {
+        "message": "Parooli nähtavuse lülitamine kontekstimenüü või klaviatuuri otsetee abil"
+    },
+
+    "primaryAction": {
+        "message": "Näita / peida parool"
+    }
+}

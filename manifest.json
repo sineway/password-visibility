@@ -3,7 +3,7 @@
     "default_locale": "en",
     "name": "__MSG_extensionName__",
     "description": "__MSG_extensionDescription__",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "applications": {
         "gecko": {
             "id": "password.visibility@sineway",
