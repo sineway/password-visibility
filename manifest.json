@@ -12,7 +12,7 @@
     },
     "author": "Sineway",
     "icons": {
-        "96": "icons/icons8-good-pincode-96.png"
+        "96": "images/icons8-good-pincode-96.png"
     },
     "permissions": ["activeTab", "contextMenus"],
     "background": {
