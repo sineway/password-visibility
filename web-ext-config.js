@@ -1,8 +1,8 @@
 module.exports = {
     ignoreFiles: [
         "*",
-        "images/screenshot-*",
-        "!{_locales,images,javascripts}",
+        "!_locales",
+        "!pages",
         "!manifest.json"
     ],
     run: {
