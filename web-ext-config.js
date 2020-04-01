@@ -8,7 +8,7 @@ module.exports = {
     run: {
         startUrl: [
             "developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password",
-            "about:debugging"
+            "about:debugging#/runtime/this-firefox"
         ]
     },
     build: {

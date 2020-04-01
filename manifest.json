@@ -3,7 +3,7 @@
     "default_locale": "en",
     "name": "__MSG_extensionName__",
     "description": "__MSG_extensionDescription__",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "applications": {
         "gecko": {
             "id": "password.visibility@sineway",
@@ -12,14 +12,26 @@
     },
     "author": "Sineway",
     "icons": {
-        "96": "images/icons8-good-pincode-96.png"
+        "96": "pages/assets/icons/icons8-good-pincode-96.png"
     },
-    "permissions": ["activeTab", "contextMenus"],
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ],
+    "optional_permissions": [
+        "*://*/*"
+    ],
     "background": {
-        "scripts": ["javascripts/background.js"]
+        "scripts": [
+            "pages/assets/background.js"
+        ]
+    },
+    "options_ui": {
+        "page": "pages/options.html",
+        "browser_style": true
     },
     "commands": {
-        "toggle-password-visibility": {
+        "primaryAction": {
             "suggested_key": {
                 "default": "Alt+P"
             },

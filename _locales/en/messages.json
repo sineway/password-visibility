@@ -9,5 +9,13 @@
 
     "primaryAction": {
         "message": "Show / Hide password"
+    },
+
+    "accessLegend": {
+        "message": "To access <b>forms</b> inside <b>frames</b>, content script needs <b>permission</b>:"
+    },
+
+    "accessCheckbox": {
+        "message": "Allow content script to access forms inside frames"
     }
 }
