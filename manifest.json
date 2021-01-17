@@ -1,41 +1,35 @@
 {
     "manifest_version": 2,
     "default_locale": "en",
-    "name": "__MSG_extensionName__",
-    "description": "__MSG_extensionDescription__",
-    "version": "2.4.0",
-    "applications": {
-        "gecko": {
-            "id": "password.visibility@sineway",
-            "strict_min_version": "63.0"
-        }
-    },
+
+    "name": "__MSG_name__",
+    "description": "__MSG_description__",
+    "version": "3.0.0",
     "author": "Sineway",
+
     "icons": {
-        "96": "pages/assets/icons/icons8-good-pincode-96.png"
+        "16": "icons/pass-eye-16.png",
+        "32": "icons/pass-eye-32.png",
+        "64": "icons/pass-eye-64.png",
+        "128": "icons/pass-eye-128.png",
+        "256": "icons/pass-eye-256.png"
     },
     "permissions": [
         "activeTab",
         "contextMenus"
     ],
-    "optional_permissions": [
-        "*://*/*"
-    ],
     "background": {
-        "scripts": [
-            "pages/assets/background.js"
-        ]
+        "page": "background.html",
+        "persistent": false
     },
-    "options_ui": {
-        "page": "pages/options.html",
-        "browser_style": true
-    },
+    "browser_action": {},
+
     "commands": {
-        "primaryAction": {
+        "_execute_browser_action": {
             "suggested_key": {
-                "default": "Alt+P"
+                "default": "Shift+Alt+P"
             },
-            "description": "__MSG_primaryAction__"
+            "description": "__MSG_description__"
         }
     }
 }
