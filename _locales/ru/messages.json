@@ -1,13 +1,8 @@
 {
-    "extensionName": {
-        "message": "Видимость Пароля"
+    "name": {
+        "message": "ПасАй"
     },
-
-    "extensionDescription": {
-        "message": "Переключение видимости пароля с помощью контекстного меню или сочетания клавиш"
-    },
-
-    "primaryAction": {
-        "message": "Показать / Скрыть пароль"
+    "description": {
+        "message": "Для паролей скрытых за звёздочками"
     }
 }

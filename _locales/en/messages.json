@@ -1,21 +1,8 @@
 {
-    "extensionName": {
-        "message": "Password Visibility"
+    "name": {
+        "message": "PassEye"
     },
-
-    "extensionDescription": {
-        "message": "Toggle password visibility using context menu or keyboard shortcut"
-    },
-
-    "primaryAction": {
-        "message": "Show / Hide password"
-    },
-
-    "accessLegend": {
-        "message": "To access <b>forms</b> inside <b>frames</b>, content script needs <b>permission</b>:"
-    },
-
-    "accessCheckbox": {
-        "message": "Allow content script to access forms inside frames"
+    "description": {
+        "message": "For passwords hidden behind asterisks"
     }
 }
