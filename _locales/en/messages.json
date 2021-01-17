@@ -3,6 +3,6 @@
         "message": "PassEye"
     },
     "description": {
-        "message": "For passwords hidden behind asterisks"
+        "message": "View passwords hidden behind asterisks"
     }
 }
