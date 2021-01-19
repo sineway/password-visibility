@@ -1,5 +1,7 @@
-console.debug({ frameElement });
 (() => {
+    let { frameElement } = window;
+    console.debug({ frameElement });
+
     let roots = [document];
 
     document.querySelectorAll("*").forEach(item => {
