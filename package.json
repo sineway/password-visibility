@@ -7,6 +7,6 @@
     },
     "scripts": {
         "serve": "servor './' 'test.html' 3000 --browse --reload",
-        "build": "zip 'upload' -FS -r './' -i '_locales/*' 'icons/*' 'node_modules/webextension-polyfill/*' 'background.*' 'content.js' 'manifest.json'"
+        "build": "zip 'build' -FS -r './' -i '_locales/*' 'icons/*' 'node_modules/webextension-polyfill/*' 'background.*' 'content.js' 'manifest.json'"
     }
 }
