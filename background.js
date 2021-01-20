@@ -1,38 +1,63 @@
-browser.runtime.onInstalled.addListener(details => {
-    console.debug("runtime.onInstalled");
+let { homepage_url } = browser.runtime.getManifest();
 
-    if (details.reason == "update" && localStorage.env == "dev") {
-        browser.tabs.create({
-            url: "localhost:3000/test.html"
-        });
+browser.contextMenus.removeAll().then(async () => {
+    let command = (await browser.commands.getAll()).find(command => {
+        return command.name == "view_password";
+    });
+    if (command.shortcut) {
+        command.shortcut = `(${ command.shortcut })`;
     }
-});
-
-browser.browserAction.onClicked.addListener(tab => {
-    console.debug("browserAction.onClicked");
-
-    browser.tabs.executeScript(tab.id, {
-        file: "content.js",
-        allFrames: true
+    browser.contextMenus.create({
+        contexts: ["page", "frame", "editable"],
+        title: `${ browser.i18n.getMessage("name") } ${ command.shortcut }`,
+        id: "view_password"
+    });
+    browser.contextMenus.create({
+        contexts: ["browser_action"],
+        title: browser.i18n.getMessage("contributeTranslation"),
+        id: `${ homepage_url }/issues/2`
+    });
+    browser.contextMenus.create({
+        contexts: ["browser_action"],
+        title: browser.i18n.getMessage("contributeBugReport"),
+        id: `${ homepage_url }/issues/new?labels=bug`
     });
 });
 
-let manifest = browser.runtime.getManifest();
-let shortcut = manifest.commands._execute_browser_action.suggested_key.default;
-
-browser.contextMenus.create({
-    id: "primary",
-    title: `${ browser.i18n.getMessage("name") } (${ shortcut })`,
-    contexts: ["all"]
-});
-
-browser.contextMenus.onClicked.addListener((info, tab) => {
-    console.debug("contextMenus.onClicked");
-
-    if (info.menuItemId == "primary") {
-        browser.tabs.executeScript(tab.id, {
-            file: "content.js",
-            allFrames: true
+browser.contextMenus.onClicked.addListener(info => {
+    if (info.menuItemId == "view_password") {
+        viewPassword();
+    }
+    else if (info.menuItemId.startsWith(homepage_url)) {
+        browser.tabs.create({
+            url: info.menuItemId
         });
     }
 });
+
+browser.commands.onCommand.addListener(name => {
+    if (name == "view_password") {
+        viewPassword();
+    }
+});
+
+browser.browserAction.onClicked.addListener(viewPassword);
+
+async function viewPassword() {
+    let [tab] = await browser.tabs.query({
+        currentWindow: true,
+        active: true
+    });
+    browser.tabs.executeScript(tab.id, {
+        file: "content.js",
+        allFrames: true
+    }).catch(error => {
+        console.trace(error.message);
+    });
+}
+
+
+
+
+
+

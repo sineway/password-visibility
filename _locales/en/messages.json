@@ -4,5 +4,14 @@
     },
     "description": {
         "message": "View passwords hidden behind asterisks"
+    },
+    "contribute": {
+        "message": "Make a donation"
+    },
+    "contributeTranslation": {
+        "message": "Translate to your language"
+    },
+    "contributeBugReport": {
+        "message": "Report a bug"
     }
 }
