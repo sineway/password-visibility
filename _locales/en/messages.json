@@ -6,7 +6,7 @@
         "message": "View passwords hidden behind asterisks"
     },
     "commandViewPassword": {
-        "message": "View passwords"
+        "message": "View password"
     },
     "contribute": {
         "message": "Make a donation"
