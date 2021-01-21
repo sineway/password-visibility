@@ -2,8 +2,8 @@
 
 **Install**
 
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/passeye/deolfklgmcjbmbdhhhlmkbcnjmliloea/)
 - [Firefox Browser Add-ons](https://addons.mozilla.org/en-US/firefox/addon/pass-eye/)
-- Chrome Web Store (soon)
 
 **Contribute**
 
